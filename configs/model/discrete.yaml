@@ -1,0 +1,26 @@
+# Model settings
+type: 'discrete'
+transition: 'uniform'                          # uniform or marginal
+model: 'graph_tf'
+diffusion_steps: 200
+diffusion_noise_schedule: 'cosine'              # 'cosine', 'polynomial_2'
+n_layers: 2
+
+
+extra_features: ['eigen', 'degree'] # 'all', 'cycles', 'eigenvalues' or null
+hidden_mlp_dims: {X: 48, E: 24, y: 24}
+
+hidden_dims: {
+  dx: 48,
+  de: 24,
+  dy: 24,
+  n_head: 4,
+  dim_ffX: 96,
+  dim_ffE: 48,
+  dim_ffy: 48,
+  dropout: 0.35,
+  x_emb_dim: 12,
+  e_emb_dim: 12,
+  y_emb_dim: 12 }
+
+lambda_train: [2.0, 1.0]

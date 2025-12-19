@@ -1,0 +1,14 @@
+# Training settings
+n_epochs: 80
+batch_size: 8
+lr: 0.0001
+clip_grad: 0.2         # float, null to disable
+save_model: True
+num_workers: 0
+ema_decay: 0.999           # 'Amount of EMA decay, 0 means off. A reasonable value  is 0.999.'
+progress_bar: true
+weight_decay: 0.001
+optimizer: nadam # adamw,nadamw,nadam => nadamw for large batches, see http://arxiv.org/abs/2102.06356 for the use of nesterov momentum with large batches
+amsgrad: true
+overfit: false
+seed: null

@@ -1,0 +1,44 @@
+# Large files
+epoch=64.ckpt
+fraudTrain.csv
+fraudtest.csv
+transactions.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+DiGress.egg-info/
+
+# Logs and data
+lightning_logs/
+outputs/
+processed/
+data/
+*.log
+*.db
+*.sqlite3
+.DS_Store
+
+# Other
+*.pdf
+*.zip
+*.gif
+*.png
+*.pt
+!streamlit_output_graph.pt
+out*.txt
+output*.txt
+*.ipynb
+
+# Keep requirements.txt
+!requirements.txt
