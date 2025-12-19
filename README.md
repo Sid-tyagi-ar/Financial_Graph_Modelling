@@ -29,7 +29,7 @@ The project includes a Streamlit web application that allows for interactive, co
 
 The pre-trained model checkpoint (`epoch=64.ckpt`) is required to run the Streamlit application. You can download it from the following link:
 
-[**Download Pre-trained Model (epoch=64.ckpt)**](https://your-drive-link-here.com)
+[**Download Pre-trained Model (epoch=64.ckpt)**](https://drive.google.com/file/d/1iutN8P4r8KKOlwTRi5RAE2pQn0DJkb1f/view?usp=sharing)
 
 Place the downloaded `epoch=64.ckpt` file in the root directory of the project.
 
